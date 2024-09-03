@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import video1 from "../assets/video4.mp4";
+
 import successlogo from "../assets/successlogo.png";
 
 
@@ -53,9 +53,7 @@ const Registration = () => {
 
   return (
     <div className='container'>
-      <video autoPlay loop muted playsInline className='background-clip'>
-        <source src={video1} type='video/mp4' />
-      </video>
+     
       <div className="content">
         <div className='formcontent'>
           <h2>Vendor Registration Portal</h2>

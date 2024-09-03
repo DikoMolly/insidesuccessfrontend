@@ -139,7 +139,14 @@
   margin-bottom: 40px;
 }
 
-
+.container{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(./assets/backdrop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width:100%;
+}
 @media screen and (max-width: 40em){
     .container .content .formcontent{
       display: none;
